@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparente">#00000000</color>
+    <color name="vermelho">#c73d3d</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="branco_gelo">#F4F4FB</color>
+    <color name="laranja">#ED592A</color>
+    <color name="preto">#000</color>
+    <color name="cinza">#ff939393</color>
+</resources>

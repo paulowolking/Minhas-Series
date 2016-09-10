@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.actitivitys.CadastrarSerieActivity">
+
+    <LinearLayout
+        android:id="@+id/main_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_nome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome"
+                android:inputType="textCapWords"
+                android:nextFocusDown="@+id/et_email"
+                android:nextFocusRight="@+id/et_email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_temporadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <Button
+            android:id="@+id/bt_adicionar_temporada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/ic_adicionar_cinza"
+            android:padding="10sp"
+            android:text="@string/adicionar_temporada"
+            android:textColor="@color/branco"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

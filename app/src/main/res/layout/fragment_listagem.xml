@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/textview_nenhum_registro" />
+
+    <com.paulo.minhas_series.ui.resources.EmptyRecyclerView
+        android:id="@+id/rv_series_previstas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+    </com.paulo.minhas_series.ui.resources.EmptyRecyclerView>
+
+</android.support.design.widget.CoordinatorLayout>

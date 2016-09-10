@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Minhas séries</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="salvar">Salvar</string>
+    <string name="sair">Sair</string>
+    <string name="mensagem_sair">Deseja realmente sair?</string>
+    <string name="voltar">Voltar</string>
+    <!-- Login -->
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="mensagem_login_incorreto">Email ou Senha incorreto</string>
+
+    <!-- Registro -->
+    <string name="registrar">Registrar</string>
+    <string name="nome">Nome</string>
+    <string name="confirma_senha">Confirme sua senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastro_sucesso">Cadastrado com SUCESSO</string>
+    <string name="usuario_ja_cadastrado">Email com usuário já cadastrado</string>
+
+    <string name="empty" />
+    <string name="series">Series</string>
+    <string name="series_previstas">Séries previstas</string>
+    <string name="nenhum_registro_encontrado">Nenhum registro encontrado</string>
+    <!-- Cadastro séries -->
+    <string name="temporadas">Quantidade de temporadas</string>
+    <string name="adicionar_temporada">temporada</string>
+    <string name="descricao">Descrição</string>
+    <string name="quantidade_capitulos">Quantidade de capítulos</string>
+    <string name="temporada">Temporada</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="mensagem_excluir">Deseja excluir a temporada?</string>
+    <string name="mensagem_cadastrar_temporada">É necessário cadastrar pelo menos uma temporada</string>
+
+    <!-- Séries -->
+    <string name="assistir">Assistir</string>
+    <string name="assistir_depois">Assistir depois</string>
+    <string name="excluir">Excluir</string>
+</resources>
